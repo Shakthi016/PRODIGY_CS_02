@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 from PIL import Image
 
 def encrypt_image(image_path, key):
@@ -51,10 +45,3 @@ def decrypt_image(encrypted_image_path, key):
 encrypt_image("example_image.png", key=50)
 
 decrypt_image("encrypted_image.png", key=50)
-
-
-# In[ ]:
-
-
-
-
